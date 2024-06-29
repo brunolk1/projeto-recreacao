@@ -1,0 +1,51 @@
+
+
+.quem {    
+    
+    background-color: #ff5757;
+    border-radius: 0 60px 0 60px;
+    margin: 30px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    .somos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between ;
+        gap: 12px;
+    }
+    p{
+        font-size: 1rem;
+        max-width: 750px;
+        font-weight: 550;
+        color: black;
+        width: auto;
+        padding: 30px;
+        ///margin: 30px;
+        
+    }
+    h1{
+        text-align: center;
+        font-size: 2rem;
+        color: #6C4080;
+    }
+    
+}
+
+@media (max-width: 780px) {
+    .quem {
+                
+        
+        
+        .somos{
+            
+            flex-direction: column;
+
+        }
+        
+       
+}
+}
