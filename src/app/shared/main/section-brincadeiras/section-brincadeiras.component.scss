@@ -16,12 +16,12 @@ h1{
 h2{
     font-family: "Chewy", system-ui;
     font-weight: 300;
-    font-style: italic;
+    font-style: normal;
     font-size: 2rem;
     color: #ff5757;
     font-weight: bold;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    
 }
 
 .carousel-inner{
@@ -35,7 +35,8 @@ p{
      font-style: normal;
     max-width: 300px;
     gap: 50px;
-    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
     font-size: 1rem;
     font-weight: 550;
 }
@@ -128,6 +129,7 @@ p{
         .brincadeiras, .oficinas, .torneio, .camarim, .baby, .torta, .baladinha, .pintura, .balao {
           
            flex-direction: column;
+           
 
        }
        
