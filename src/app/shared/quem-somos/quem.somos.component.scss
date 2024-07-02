@@ -18,6 +18,9 @@
         gap: 12px;
     }
     p{
+        font-family: "Atma", system-ui;
+        font-weight: 400;
+        font-style: normal;
         font-size: 1rem;
         max-width: 750px;
         font-weight: 550;
@@ -28,9 +31,13 @@
         
     }
     h1{
+        font-family: "Chewy", system-ui;
+        font-weight: 400;
+        font-style: normal;
         text-align: center;
         font-size: 2rem;
         color: #6C4080;
+        padding-top: 8px;
     }
     
 }
